@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.top-nav{
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+
+a{
+  text-decoration: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  font-size: 16px;
+}
+a:hover{
+    color: #00e0ff;
+}
+
+.p-p-1{
+    border-radius: 50%;
+   
+}
+
+input{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+.search-bar{
+    border: 1px solid #797979;
+    border-radius: 20px;
+    width: 400px;
+    height: 35px;
+
+}
+.bottom-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.wrapper{
+   position: relative;
+    margin-top: 10px;
+   
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
+    width: 200px;
+    background: #fff;
+    font-size: 16px;
+  
+   
+}
+
+/* .wrapper .card {
+  align-items: center;
+} */
+
+.course-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 15em;
+    padding-left: 5em;
+}
+button{
+    background-color: gold;
+    color:black;
+    border-radius: 15%;
+}
+
+.toolpit1{
+ position: absolute;
+ visibility: hidden;
+ left: 200px;
+ z-index: 1;
+ background-color: white;
+ width: 250px;
+ height: auto;
+}
+
+.wrapper:hover .toolpit1{
+  visibility: visible;
+}
+
+.toolpit2{
+    position: absolute;
+    visibility: hidden;
+    right: 200px;
+    z-index: 1;
+    background-color: white;
+    width: 250px;
+    height: auto;
+   }
+   
+   .wrapper:hover .toolpit2{
+     visibility: visible;
+   }
+
+   .cart{
+       width: 50%;
+       height: 20px;
+       background-color: red;
+       color: white;
+   }
